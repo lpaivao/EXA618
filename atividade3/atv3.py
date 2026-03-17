@@ -1,7 +1,7 @@
 import time
 from pathlib import Path
+import xml.sax
 from xml.dom.minidom import parse
-from xml.parsers import expat
 
 
 caminho_arquivo = Path(__file__).with_name("map.osm")
@@ -75,98 +75,100 @@ dados_dom.sort(key=lambda item: (item[3].lower(), item[2]))
 fim_dom = time.perf_counter()
 
 
-# SAX (estilo evento usando Expat)
+# SAX (estilo evento usando xml.sax.ContentHandler)
 inicio_sax = time.perf_counter()
-dados_sax = []
-coordenadas_nos_sax = {}
+class Listener(xml.sax.ContentHandler):
+    def __init__(self, chaves):
+        self.currentData = ""
+        self.chaves_tipo = chaves
+        self.dados = []
+        self.coordenadas_nos = {}
+        self.tipo_elemento = None
+        self.tags_atuais = {}
+        self.referencias_atuais = []
+        self.lat_atual = None
+        self.lon_atual = None
 
-tipo_elemento = None
-tags_atuais = {}
-referencias_atuais = []
-lat_atual = None
-lon_atual = None
+    def startElement(self, tag, attributes):
+        self.currentData = ""
+
+        if tag == "node":
+            self.tipo_elemento = "node"
+            self.tags_atuais = {}
+            self.referencias_atuais = []
+            self.lat_atual = float(attributes["lat"]) if "lat" in attributes else None
+            self.lon_atual = float(attributes["lon"]) if "lon" in attributes else None
+
+            id_no = attributes.get("id", "")
+            if id_no and self.lat_atual is not None and self.lon_atual is not None:
+                self.coordenadas_nos[id_no] = (self.lat_atual, self.lon_atual)
+
+        elif tag == "way":
+            self.tipo_elemento = "way"
+            self.tags_atuais = {}
+            self.referencias_atuais = []
+            self.lat_atual = None
+            self.lon_atual = None
+
+        elif tag == "tag" and self.tipo_elemento in ["node", "way"]:
+            chave = attributes.get("k", "")
+            valor = attributes.get("v", "")
+            self.tags_atuais[chave] = valor
+
+        elif tag == "nd" and self.tipo_elemento == "way":
+            referencia = attributes.get("ref", "")
+            if referencia:
+                self.referencias_atuais.append(referencia)
+
+    def endElement(self, tag):
+        if tag == "node" and self.tipo_elemento == "node":
+            tipo = None
+            for chave in self.chaves_tipo:
+                if chave in self.tags_atuais and self.tags_atuais[chave]:
+                    tipo = f"{chave}:{self.tags_atuais[chave]}"
+                    break
+
+            nome_local = self.tags_atuais.get("name", "").strip()
+            if tipo and nome_local and self.lat_atual is not None and self.lon_atual is not None:
+                self.dados.append((self.lat_atual, self.lon_atual, tipo, nome_local))
+
+            self.tipo_elemento = None
+            self.tags_atuais = {}
+            self.referencias_atuais = []
+            self.lat_atual = None
+            self.lon_atual = None
+
+        elif tag == "way" and self.tipo_elemento == "way":
+            tipo = None
+            for chave in self.chaves_tipo:
+                if chave in self.tags_atuais and self.tags_atuais[chave]:
+                    tipo = f"{chave}:{self.tags_atuais[chave]}"
+                    break
+
+            nome_local = self.tags_atuais.get("name", "").strip()
+            if tipo and nome_local:
+                pontos = [self.coordenadas_nos[ref] for ref in self.referencias_atuais if ref in self.coordenadas_nos]
+                if pontos:
+                    media_lat = sum(p[0] for p in pontos) / len(pontos)
+                    media_lon = sum(p[1] for p in pontos) / len(pontos)
+                    self.dados.append((media_lat, media_lon, tipo, nome_local))
+
+            self.tipo_elemento = None
+            self.tags_atuais = {}
+            self.referencias_atuais = []
+            self.lat_atual = None
+            self.lon_atual = None
+
+    def characters(self, content):
+        self.currentData += content
 
 
-def inicio_elemento(nome, attrs):
-    global tipo_elemento, tags_atuais, referencias_atuais, lat_atual, lon_atual
+parser = xml.sax.make_parser()
+handler = Listener(chaves_tipo)
+parser.setContentHandler(handler)
+parser.parse(str(caminho_arquivo))
 
-    if nome == "node":
-        tipo_elemento = "node"
-        tags_atuais = {}
-        referencias_atuais = []
-        lat_atual = float(attrs["lat"]) if "lat" in attrs else None
-        lon_atual = float(attrs["lon"]) if "lon" in attrs else None
-
-        id_no = attrs.get("id", "")
-        if id_no and lat_atual is not None and lon_atual is not None:
-            coordenadas_nos_sax[id_no] = (lat_atual, lon_atual)
-
-    elif nome == "way":
-        tipo_elemento = "way"
-        tags_atuais = {}
-        referencias_atuais = []
-        lat_atual = None
-        lon_atual = None
-
-    elif nome == "tag" and tipo_elemento in ["node", "way"]:
-        chave = attrs.get("k", "")
-        valor = attrs.get("v", "")
-        tags_atuais[chave] = valor
-
-    elif nome == "nd" and tipo_elemento == "way":
-        referencia = attrs.get("ref", "")
-        if referencia:
-            referencias_atuais.append(referencia)
-
-
-def fim_elemento(nome):
-    global tipo_elemento, tags_atuais, referencias_atuais, lat_atual, lon_atual
-
-    if nome == "node" and tipo_elemento == "node":
-        tipo = None
-        for chave in chaves_tipo:
-            if chave in tags_atuais and tags_atuais[chave]:
-                tipo = f"{chave}:{tags_atuais[chave]}"
-                break
-
-        nome_local = tags_atuais.get("name", "").strip()
-        if tipo and nome_local and lat_atual is not None and lon_atual is not None:
-            dados_sax.append((lat_atual, lon_atual, tipo, nome_local))
-
-        tipo_elemento = None
-        tags_atuais = {}
-        referencias_atuais = []
-        lat_atual = None
-        lon_atual = None
-
-    elif nome == "way" and tipo_elemento == "way":
-        tipo = None
-        for chave in chaves_tipo:
-            if chave in tags_atuais and tags_atuais[chave]:
-                tipo = f"{chave}:{tags_atuais[chave]}"
-                break
-
-        nome_local = tags_atuais.get("name", "").strip()
-        if tipo and nome_local:
-            pontos = [coordenadas_nos_sax[ref] for ref in referencias_atuais if ref in coordenadas_nos_sax]
-            if pontos:
-                media_lat = sum(p[0] for p in pontos) / len(pontos)
-                media_lon = sum(p[1] for p in pontos) / len(pontos)
-                dados_sax.append((media_lat, media_lon, tipo, nome_local))
-
-        tipo_elemento = None
-        tags_atuais = {}
-        referencias_atuais = []
-        lat_atual = None
-        lon_atual = None
-
-
-parser = expat.ParserCreate()
-parser.StartElementHandler = inicio_elemento
-parser.EndElementHandler = fim_elemento
-
-with open(caminho_arquivo, "rb") as arquivo:
-    parser.Parse(arquivo.read(), True)
+dados_sax = handler.dados
 
 dados_sax.sort(key=lambda item: (item[3].lower(), item[2]))
 fim_sax = time.perf_counter()

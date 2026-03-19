@@ -1,0 +1,2210 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "name": "100 Montaditos",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1676201,
+                    41.3878235
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "name": "380 - Carrer Duran i Bas",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1742151,
+                    41.3854991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "name": "395 - Pl. Catalunya 22",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1702543,
+                    41.3860517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "name": "484 - (PK) Rambla de Catalunya - Ronda Universitat",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.166997,
+                    41.388101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 5,
+                "name": "4Gats",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1736392,
+                    41.3857384
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "name": "53 - Plaça Carles Pi i Sunyer",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1738391,
+                    41.3852178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 7,
+                "name": "62 - Plaça Catalunya",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1687886,
+                    41.3872352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "name": "63 - Plaça Catalunya",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1694224,
+                    41.3864945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "name": "64 - Plaça Catalunya",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1691089,
+                    41.387522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "name": "65 - Plaça Catalunya",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1695064,
+                    41.3876589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "name": "Albawadi",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1736387,
+                    41.3876606
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "name": "Alsur Café",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1748803,
+                    41.3874185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 13,
+                "name": "Anduriña",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1739528,
+                    41.3866593
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "name": "Banco de España",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1714197,
+                    41.3865873
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 15,
+                "name": "Banco Sabadell",
+                "amenity": "atm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1747277,
+                    41.386853
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 16,
+                "name": "Banco Sabadell",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1746157,
+                    41.3868589
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 17,
+                "name": "Banco Sabadell",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1675333,
+                    41.3885348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 18,
+                "name": "Banco Santander",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169076,
+                    41.3883669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 19,
+                "name": "Banco Santander",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682126,
+                    41.3877767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 20,
+                "name": "Bar timón",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1739797,
+                    41.3886394
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 21,
+                "name": "Belbo dos besos",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1672595,
+                    41.388072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 22,
+                "name": "Belushi's",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1674444,
+                    41.3860376
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 23,
+                "name": "Betawi",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1738162,
+                    41.3857076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 24,
+                "name": "Biblioteca Balmes",
+                "amenity": "library"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1744138,
+                    41.3856687
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 25,
+                "name": "Bicirent",
+                "amenity": "bicycle_rental"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679344,
+                    41.3853061
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 26,
+                "name": "BitBase ATM",
+                "amenity": "atm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1689028,
+                    41.3859188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 27,
+                "name": "Bloome",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1750066,
+                    41.3866475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 28,
+                "name": "Bloome by Sasha",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1748055,
+                    41.3867822
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 29,
+                "name": "Bosco",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174473,
+                    41.3852432
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 30,
+                "name": "Burger King",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1698477,
+                    41.3852671
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 31,
+                "name": "Burger King",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1678985,
+                    41.3875862
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 32,
+                "name": "Burger King",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1731191,
+                    41.3884832
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 33,
+                "name": "Burritos - Sant Pere",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1719138,
+                    41.3884785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 34,
+                "name": "Ca la Dona",
+                "amenity": "social_facility"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1749421,
+                    41.3855359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 35,
+                "name": "Caelis- Michelin",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1743067,
+                    41.3870303
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 36,
+                "name": "Café Zurich",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1694606,
+                    41.3858504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 37,
+                "name": "Caixabank",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682922,
+                    41.3870545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 38,
+                "name": "Caixabank",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1685381,
+                    41.3869232
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 39,
+                "name": "Caixabank",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1744294,
+                    41.387715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 40,
+                "name": "Caixabank",
+                "amenity": "bank"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1741877,
+                    41.3876663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 41,
+                "name": "Cala del Vermouth",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1748362,
+                    41.3857962
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 42,
+                "name": "Cala del Vermut 2",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1747648,
+                    41.3859393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 43,
+                "name": "Can Pizza",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1676652,
+                    41.3868614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 44,
+                "name": "Carl's Jr.",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1672894,
+                    41.3871057
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 45,
+                "name": "Casal de Joves Autogestionat de Ciutat Vella",
+                "amenity": "community_centre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174722,
+                    41.3853567
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 46,
+                "name": "Centre d'Estudis Politècnics",
+                "amenity": "college"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1732364,
+                    41.388631
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 47,
+                "name": "Cerveceria Taller de tapas",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174026,
+                    41.386132
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 48,
+                "name": "Chalito",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1677211,
+                    41.3881701
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 49,
+                "name": "Change",
+                "amenity": "bureau_de_change"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1740932,
+                    41.3847988
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 50,
+                "name": "Chinoi",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1683964,
+                    41.3857244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 51,
+                "name": "City Hall",
+                "amenity": "theatre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682551,
+                    41.3877482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 52,
+                "name": "Comissaria dels Mossos d'Esquadra a la Plaça a Catalunya",
+                "amenity": "police"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1696272,
+                    41.3874444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 53,
+                "name": "Contempo",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.16817,
+                    41.3864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 54,
+                "name": "CreuBlanca Pelai",
+                "amenity": "clinic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1675286,
+                    41.3855604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 55,
+                "name": "Cullera de Boix",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679862,
+                    41.387981
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 56,
+                "name": "Dafu Don",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1743481,
+                    41.3879122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 57,
+                "name": "DAFUDON",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1673977,
+                    41.386021
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 58,
+                "name": "Dim Sum House",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1680061,
+                    41.3862203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 59,
+                "name": "Dojo Zen Barcelona Kannon",
+                "amenity": "place_of_worship"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1670798,
+                    41.3866203
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 60,
+                "name": "el Fornet",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1723419,
+                    41.3882003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 61,
+                "name": "Euronet",
+                "amenity": "atm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1672011,
+                    41.3866993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 62,
+                "name": "Euronet",
+                "amenity": "atm"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.16958,
+                    41.3856637
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 63,
+                "name": "Farggi",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1703134,
+                    41.3882179
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 64,
+                "name": "Farmàcia Barenys",
+                "amenity": "pharmacy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1737568,
+                    41.3866909
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 65,
+                "name": "Farmàcia Espona Meseguer, Núria",
+                "amenity": "pharmacy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1680412,
+                    41.387509
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 66,
+                "name": "Farmàcia Matas Boet, Núria",
+                "amenity": "pharmacy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1715048,
+                    41.3853601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 67,
+                "name": "Farmàcia Moragrega Estrany, L - Rojas Estrany, ME",
+                "amenity": "pharmacy"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.174919,
+                    41.3869997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 68,
+                "name": "Five Guys",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169355,
+                    41.3859846
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 69,
+                "name": "Florida",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1671854,
+                    41.3861093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 70,
+                "name": "Fonts Bessones",
+                "amenity": "fountain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.169442780952381,
+                    41.38728927142857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 71,
+                "name": "Fonts Bessones",
+                "amenity": "fountain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1698264739130435,
+                    41.38751529130435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 72,
+                "name": "Foster's Hollywood",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1669608,
+                    41.3869811
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 73,
+                "name": "FreeNow Barcelona",
+                "amenity": "office"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1690975,
+                    41.3858413
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 74,
+                "name": "Ginos",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1728382,
+                    41.3882602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 75,
+                "name": "Happy",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167454,
+                    41.3879364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 76,
+                "name": "Hard Rock Cafe",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1707466,
+                    41.3859551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 77,
+                "name": "Honest Greens",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679623,
+                    41.387556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 78,
+                "name": "Istanbul Grill",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1742413,
+                    41.3881301
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 79,
+                "name": "IT - Italian Trattoria Barcelona",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1676245,
+                    41.3872515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 80,
+                "name": "Japonés Machiroku",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1729227,
+                    41.3871971
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 81,
+                "name": "Japonés Machiroku",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.172886,
+                    41.3872118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 82,
+                "name": "Kasa Japo",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1674739,
+                    41.3860177
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 83,
+                "name": "KEMO",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1668799,
+                    41.3865741
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 84,
+                "name": "KFC",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682085,
+                    41.3870601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 85,
+                "name": "KFC",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1725531,
+                    41.388035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 86,
+                "name": "König",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1677832,
+                    41.3876932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 87,
+                "name": "La Central",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1749567,
+                    41.386686
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 88,
+                "name": "La Dolça Herminia",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1744184,
+                    41.3867346
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 89,
+                "name": "La Esquina",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1678956,
+                    41.3859198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 90,
+                "name": "La Ginesta",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1678125,
+                    41.3852198
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 91,
+                "name": "La Lluna",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1715721,
+                    41.3853036
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 92,
+                "name": "La Salle Comtal",
+                "amenity": "school"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.175639205263158,
+                    41.38804145789474
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 93,
+                "name": "La Taberna",
+                "amenity": "pub"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1716723,
+                    41.3883666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 94,
+                "name": "La tavern de barcelona",
+                "amenity": "bar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679739,
+                    41.387328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 95,
+                "name": "La Tramoia",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1669465,
+                    41.3881068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 96,
+                "name": "Le Bistrot de Pierrot",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1748464,
+                    41.3861738
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 97,
+                "name": "Lluis de les Moles",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1728197,
+                    41.387262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 98,
+                "name": "Locker Barcelona",
+                "amenity": "luggage_locker"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1722409,
+                    41.3872926
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 99,
+                "name": "Malvón",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.17109,
+                    41.387658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 100,
+                "name": "McDonald's",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1696362,
+                    41.385359
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 101,
+                "name": "McDonald's",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1707319,
+                    41.3883669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 102,
+                "name": "Muteki Japanese Ramen",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1675861,
+                    41.3882573
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 103,
+                "name": "Màquines per comprar bitllets",
+                "amenity": "vending_machine"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1692592,
+                    41.3875609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 104,
+                "name": "Más que sushi",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1670471,
+                    41.387064
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 105,
+                "name": "Nens cavalcant Peixos",
+                "amenity": "fountain"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.167008945,
+                    41.38847404
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 106,
+                "name": "Nineteen",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1709946,
+                    41.3861747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 107,
+                "name": "Oficina de Correos",
+                "amenity": "post_office"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1668084,
+                    41.386908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 108,
+                "name": "Oggi Gelato Barcelona",
+                "amenity": "ice_cream"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1733829,
+                    41.3865699
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 109,
+                "name": "Ortigosa",
+                "amenity": "parking"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1748514,
+                    41.3882154
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 110,
+                "name": "Otto Stylt",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1668825,
+                    41.3880522
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 111,
+                "name": "Palau de la Música Catalana",
+                "amenity": "theatre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1751446633333336,
+                    41.387599853333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 112,
+                "name": "Pannus",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1726728,
+                    41.3863691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 113,
+                "name": "Pans & Company",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.172522,
+                    41.388488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 114,
+                "name": "Plaça Catalunya",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1705408,
+                    41.386037
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 115,
+                "name": "Plaça Catalunya",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1688535,
+                    41.3864572
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 116,
+                "name": "Plaça Catalunya - Saba",
+                "amenity": "parking_entrance"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1701352,
+                    41.3878916
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 117,
+                "name": "Punt de reparació de bicicletes",
+                "amenity": "bicycle_repair_station"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1677294,
+                    41.3858802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 118,
+                "name": "Pura Brasa",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1673969,
+                    41.3879747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 119,
+                "name": "Pure Cuisine",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682175,
+                    41.3857655
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 120,
+                "name": "Pure Cusine",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1681028,
+                    41.3857848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 121,
+                "name": "Rainbow Dragon",
+                "amenity": "nightclub"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.172046,
+                    41.3852951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 122,
+                "name": "Ramen Dou",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1732283,
+                    41.386542
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 123,
+                "name": "Ramen Shifu",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1722244,
+                    41.3880535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 124,
+                "name": "Restaurant La Plassohla",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1742811,
+                    41.3869391
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 125,
+                "name": "Rodilla",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1747514,
+                    41.3872289
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 126,
+                "name": "Roger",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1736824,
+                    41.3876221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 127,
+                "name": "Ronda Universidad 14",
+                "amenity": "parking"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1670403,
+                    41.3866484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 128,
+                "name": "Saba Bamsa Plaça Catalunya",
+                "amenity": "parking"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.170042752631579,
+                    41.38691657368421
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 129,
+                "name": "Saba Bamsa Rambla Catalunya",
+                "amenity": "parking"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1678928,
+                    41.3877363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 130,
+                "name": "Sala Ars",
+                "amenity": "theatre"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1738887,
+                    41.3884562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 131,
+                "name": "Sereki Europea",
+                "amenity": "parking"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1735366,
+                    41.3877111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 132,
+                "name": "Set de Gòtic",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1738261,
+                    41.3857903
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 133,
+                "name": "SK",
+                "amenity": "pub"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1750351,
+                    41.3866107
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 134,
+                "name": "Starbucks",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679205,
+                    41.3880191
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 135,
+                "name": "Starbucks",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1679219,
+                    41.3858116
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 136,
+                "name": "Syra Coffee",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1667428,
+                    41.3865348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 137,
+                "name": "Taco Bell",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1705399,
+                    41.3882932
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 138,
+                "name": "taller tapas",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1738348,
+                    41.3866066
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 139,
+                "name": "Taverna Iberia",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1717497,
+                    41.3883948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 140,
+                "name": "The Black Room",
+                "amenity": "nightclub"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1682772,
+                    41.3877311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 141,
+                "name": "The Ranch Smokehouse",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1676098,
+                    41.3868338
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 142,
+                "name": "Tomahawk Grill House",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1737779,
+                    41.3875063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 143,
+                "name": "Trigo",
+                "amenity": "cafe"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1740599,
+                    41.386702
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 144,
+                "name": "Trobadour",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1683456,
+                    41.387684
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 145,
+                "name": "Txapela",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1683518,
+                    41.3870784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 146,
+                "name": "Viena",
+                "amenity": "fast_food"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1714279,
+                    41.3886294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 147,
+                "name": "Xaica",
+                "amenity": "restaurant"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1677663,
+                    41.3853204
+                ]
+            }
+        }
+    ]
+}

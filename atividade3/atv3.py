@@ -5,7 +5,7 @@ from xml.dom.minidom import parse
 
 
 caminho_arquivo = Path(__file__).with_name("map.osm")
-chaves_tipo = ["amenity", "shop", "tourism", "office", "craft", "leisure", "healthcare"]
+chaves_tipo = ["amenity"]
 
 
 # DOM
@@ -30,7 +30,7 @@ for no in documento.getElementsByTagName("node"):
     tipo = None
     for chave in chaves_tipo:
         if chave in tags and tags[chave]:
-            tipo = f"{chave}:{tags[chave]}"
+            tipo = tags[chave]
             break
 
     nome = tags.get("name", "").strip()
@@ -49,7 +49,7 @@ for via in documento.getElementsByTagName("way"):
     tipo = None
     for chave in chaves_tipo:
         if chave in tags and tags[chave]:
-            tipo = f"{chave}:{tags[chave]}"
+            tipo = tags[chave]
             break
 
     nome = tags.get("name", "").strip()
@@ -125,7 +125,7 @@ class Listener(xml.sax.ContentHandler):
             tipo = None
             for chave in self.chaves_tipo:
                 if chave in self.tags_atuais and self.tags_atuais[chave]:
-                    tipo = f"{chave}:{self.tags_atuais[chave]}"
+                    tipo = self.tags_atuais[chave]
                     break
 
             nome_local = self.tags_atuais.get("name", "").strip()
@@ -142,7 +142,7 @@ class Listener(xml.sax.ContentHandler):
             tipo = None
             for chave in self.chaves_tipo:
                 if chave in self.tags_atuais and self.tags_atuais[chave]:
-                    tipo = f"{chave}:{self.tags_atuais[chave]}"
+                    tipo = self.tags_atuais[chave]
                     break
 
             nome_local = self.tags_atuais.get("name", "").strip()
@@ -196,4 +196,20 @@ print(f"SAX: {tempo_sax_ms:.2f} ms")
 if set(dados_dom) == set(dados_sax):
     print("Consistencia: DOM e SAX encontraram os mesmos estabelecimentos.")
 else:
+
     print("Consistencia: DOM e SAX encontraram resultados diferentes.")
+
+# Exportação para CSV
+import csv
+
+# Exporta DOM
+with open("saida_dom.csv", "w", newline='', encoding="utf-8") as f_dom:
+    writer = csv.writer(f_dom)
+    writer.writerow(["lat", "lon", "tipo", "nome"])
+    writer.writerows(dados_dom)
+
+# Exporta SAX
+with open("saida_sax.csv", "w", newline='', encoding="utf-8") as f_sax:
+    writer = csv.writer(f_sax)
+    writer.writerow(["lat", "lon", "tipo", "nome"])
+    writer.writerows(dados_sax)
